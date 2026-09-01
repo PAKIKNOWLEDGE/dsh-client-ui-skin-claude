@@ -1,7 +1,7 @@
 {
   "name": "@pakiknowledge/dsh-client-ui-skin-claude",
   "description": "Claude-style skin for the dsh web GUI — warm-black canvas, clay accent, Anthropic Sans UI / Serif body font modes, follows the native light/dark theme",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -14,10 +14,6 @@
       "patch": "./cordis.patch.yml"
     },
     "client": {
-      "inject": [
-        "@deepseek-ai/dsh-client-runtime",
-        "@deepseek-ai/dsh-client-locale"
-      ],
       "platform": "web"
     }
   },
@@ -38,10 +34,6 @@
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "@deepseek-ai/cordis": "^4.0.1",
-    "@deepseek-ai/dsh-client-runtime": "^0.1.0-rc.6",
-    "@deepseek-ai/dsh-client-locale": "^0.1.0-rc.6",
-    "@deepseek-ai/dsh-client-ui-slots": "^0.1.0-rc.6",
-    "@deepseek-ai/dsh-client-ui-primitives": "^0.1.0-rc.6"
+    "@deepseek-ai/cordis": "^4.0.1"
   }
 }
